@@ -157,7 +157,7 @@ export default class MenuBuilder {
         {
           label: 'Learn More',
           click() {
-            shell.openExternal('https://electronjs.org');
+            shell.openExternal('https://qstack.tech');
           },
         },
         {
@@ -258,7 +258,7 @@ export default class MenuBuilder {
           {
             label: 'Learn More',
             click() {
-              shell.openExternal('https://electronjs.org');
+              shell.openExternal('https://qstack.tech');
             },
           },
           {
