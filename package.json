@@ -114,15 +114,10 @@
     "url": "https://github.com/QStack1/QStackOS/issues"
   },
   "keywords": [
-    "electron",
-    "boilerplate",
-    "react",
-    "typescript",
-    "ts",
-    "sass",
-    "webpack",
-    "hot",
-    "reload"
+    "qa",
+    "testing",
+    "automation",
+    "ai"
   ],
   "homepage": "https://github.com/QStack1/QStackOS",
   "jest": {
