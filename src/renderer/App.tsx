@@ -1,23 +1,16 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
-
+import 'antd/dist/antd.css';
+import Home from '../containers/Home';
 import './App.css';
-
-const Hello = () => {
-  return (
-    <div>
-      <h1>QStack OS</h1>
-    </div>
-  );
-};
 
 export default function App() {
   return (
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<Hello />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     </Provider>
